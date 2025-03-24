@@ -11,7 +11,6 @@
 <h1>🎯 Objetivo do projeto</h1> 
 
 O objetivo deste trabalho é a realização de um aplicativo de dispositivos móveis, que ensinará a realização de algumas receitas doces especifícas.  
-
 <br>
 
 <h1>✖️ O que não é o objetivo do projeto</h1>
