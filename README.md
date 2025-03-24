@@ -10,11 +10,15 @@
 
 <h1>🎯 Objetivo do projeto</h1> 
 
+O objetivo deste trabalho é a realização de um aplicativo de dispositivos móveis, que ensinará a realização de algumas receitas doces especifícas.  
 
 <br>
 
 <h1>✖️ O que não é o objetivo do projeto</h1>
 
+Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos, o aplicativo não contará com:
+- Salvamento de receitas favoritas.
+- Se caso realizado a receita, não terá responsabilidade sobre o doce realizado pelo usuário. 
 
 <h1>👥 Público-alvo</h2>
 
