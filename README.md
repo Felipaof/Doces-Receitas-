@@ -23,12 +23,17 @@ Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos
 
 <h1>:hammer: Requisitos funcionais do projeto</h1>
 
--
+-Sistema de buscas de categorias de receitas contidas no app (Exemplo: "Bolo")
+
+-Sistema de buscas de receitas contidas no app por categoria (Exemplo: "Bolo de cenoura")
+
+-Um link de um vídeo de apoio para auxiliar no desenvolvimento da receita.
 
 <h1>☑️ Requisitos não funcionais para o site</h1> 
 
-- 
+-Desempenho: O aplicativo deverá funcionar com agilidade no tempo de resposta e sem travamento nas buscas.
 
+-Segurança: O aplicativo não irá precisar de nenhum dado do usuário para sua utilização.
 
 <h1>📑 Matrizes de Requisitos</h1>
 
