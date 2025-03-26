@@ -52,7 +52,8 @@ Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos
 Pré-Mockup da Interface: <img src="" width=1000> 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
-<img src="" width=1000>
+<img src="![Diagrama banco de dados ](https://github.com/user-attachments/assets/a019b6d0-5477-4ac9-b8a7-d6b6aa153eb6)
+" width=1000>
 
 
 <h1>📖 Dicionário de dados </h1>
