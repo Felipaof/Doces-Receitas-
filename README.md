@@ -56,7 +56,131 @@ Pré-Mockup da Interface: <img src="" width=1000>
 " width=1000>
 
 
-<h1>📖 Dicionário de dados </h1>
+<h1>📖 Dicionário de dados </h1> 
+
+<h2>Tabela: categorias</h2>  
+<table border="1">  
+<tr>  
+    <th>Nome do Campo</th>  
+    <th>Tipo de Dado</th>  
+    <th>Tamanho</th>  
+    <th>Permite Nulo?</th>  
+    <th>Descrição</th>  
+</tr>  
+<tr>  
+    <td>id_categoria</td>  
+    <td>INT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Identificador único da categoria (chave primária, autoincremento).</td>  
+</tr>  
+<tr>  
+    <td>nome_categoria</td>  
+    <td>VARCHAR</td>  
+    <td>100</td>  
+    <td>NÃO</td>  
+    <td>Nome da categoria (exemplo: "Bolos").</td>  
+</tr>  
+</table>  
+
+<h2>Tabela: receitas</h2>  
+<table border="1">  
+<tr>  
+    <th>Nome do Campo</th>  
+    <th>Tipo de Dado</th>  
+    <th>Tamanho</th>  
+    <th>Permite Nulo?</th>  
+    <th>Descrição</th>  
+</tr>  
+<tr>  
+    <td>id_receita</td>  
+    <td>INT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Identificador único da receita (chave primária, autoincremento).</td>  
+</tr>  
+<tr>  
+    <td>nome_receita</td>  
+    <td>VARCHAR</td>  
+    <td>150</td>  
+    <td>NÃO</td>  
+    <td>Nome da receita (exemplo: "Bolo de cenoura").</td>  
+</tr>  
+<tr>  
+    <td>ingredientes</td>  
+    <td>TEXT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Lista dos ingredientes necessários.</td>  
+</tr>  
+<tr>  
+    <td>modo_preparo</td>  
+    <td>TEXT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Passo a passo para preparar a receita.</td>  
+</tr>  
+<tr>  
+    <td>tempo_preparo</td>  
+    <td>INT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Tempo estimado de preparo (em minutos).</td>  
+</tr>  
+<tr>  
+    <td>rendimento</td>  
+    <td>VARCHAR</td>  
+    <td>50</td>  
+    <td>NÃO</td>  
+    <td>Quantidade de porções que a receita rende.</td>  
+</tr>  
+<tr>  
+    <td>id_categoria</td>  
+    <td>INT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Categoria da receita (chave estrangeira de `categorias`).</td>  
+</tr>  
+<tr>  
+    <td>video_link</td>  
+    <td>VARCHAR</td>  
+    <td>255</td>  
+    <td>SIM</td>  
+    <td>Link de um vídeo tutorial da receita.</td>  
+</tr>  
+</table>  
+
+<h2>Tabela: imagens_receitas</h2>  
+<table border="1">  
+<tr>  
+    <th>Nome do Campo</th>  
+    <th>Tipo de Dado</th>  
+    <th>Tamanho</th>  
+    <th>Permite Nulo?</th>  
+    <th>Descrição</th>  
+</tr>  
+<tr>  
+    <td>id_imagem</td>  
+    <td>INT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Identificador único da imagem (chave primária, autoincremento).</td>  
+</tr>  
+<tr>  
+    <td>id_receita</td>  
+    <td>INT</td>  
+    <td>-</td>  
+    <td>NÃO</td>  
+    <td>Receita relacionada (chave estrangeira de `receitas`).</td>  
+</tr>  
+<tr>  
+    <td>url_imagem</td>  
+    <td>VARCHAR</td>  
+    <td>255</td>  
+    <td>NÃO</td>  
+    <td>URL ou caminho da imagem armazenada.</td>  
+</tr>  
+</table>
 
 <h2>users</h2>
 
