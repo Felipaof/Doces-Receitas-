@@ -39,7 +39,7 @@ Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos
 
 <h2>Matriz de Requisitos Gerais</h2>
 
-<img src="" width=1000> 
+<img src="https://github.com/Felipaof/Doces-Receitas-/blob/167fc5b0dfa91bc94cbe2186cadd42c09a0f090a/Matriz%20de%20requisitos%20.png" width=1000> 
 <br>
 - Observação:
 
@@ -52,8 +52,7 @@ Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos
 Pré-Mockup da Interface: <img src="" width=1000> 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
-<img src="![Diagrama banco de dados ](https://github.com/user-attachments/assets/a019b6d0-5477-4ac9-b8a7-d6b6aa153eb6)
-" width=1000>
+<img src="https://github.com/Felipaof/Doces-Receitas-/blob/167fc5b0dfa91bc94cbe2186cadd42c09a0f090a/Diagrama%20banco%20de%20dados%20.png" width=1000>
 
 
 <h1>📖 Dicionário de dados </h1> 
@@ -202,11 +201,8 @@ Pré-Mockup da Interface: <img src="" width=1000>
 
 
 <h1>🧍Diagramas UML</h1>
-<h2>Tela de Login e Cadastro</h2>
-<img src="" width=1000>
-<h2>Tela principal, criação de coleção e criação de item</h2>
-<img src="" width=1000>
-
+<h2>Tela de principal e funcionamento do aplicativo</h2>
+<img src="https://github.com/Felipaof/Doces-Receitas-/blob/167fc5b0dfa91bc94cbe2186cadd42c09a0f090a/Diagrama%20UML%20doces%20receitas%20.png" width=1000>
 
 <h1>🧰 Tecnologias Utilizadas</h1> 
 
