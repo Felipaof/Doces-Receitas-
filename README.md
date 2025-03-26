@@ -41,15 +41,16 @@ Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos
 
 <img src="https://github.com/Felipaof/Doces-Receitas-/blob/167fc5b0dfa91bc94cbe2186cadd42c09a0f090a/Matriz%20de%20requisitos%20.png" width=1000> 
 <br>
-- Observação:
-
-<h2>Matriz de Requisitos Funcionais</h2>
-
-
 
 <h1>📱Mockup do APP </h1>
 
-Pré-Mockup da Interface: <img src="" width=1000> 
+<h2> Pré-Mockup da Interface principal:</h2> <img src="https://github.com/Felipaof/Doces-Receitas-/blob/b0264919eac15226bcf6214283dff328145e19a3/Mockup%20inicial%20.png" width=1000> 
+
+<h2> Pré-Mockup da Interface de busca:</h2> <img  src="https://github.com/Felipaof/Doces-Receitas-/blob/b0264919eac15226bcf6214283dff328145e19a3/tela%20pesquisa.png" width=1000> 
+
+<h2> Pré-Mockup da Interface das receitas:</h2> <img  src="https://github.com/Felipaof/Doces-Receitas-/blob/b0264919eac15226bcf6214283dff328145e19a3/tela%20receitas%20.png" width=1000> 
+
+<h2> Pré-Mockup da Interface da receita:</h2> <img  src="https://github.com/Felipaof/Doces-Receitas-/blob/b0264919eac15226bcf6214283dff328145e19a3/tela%20receita%20.png" width=1000> 
 
 <h1>📊 Modelagem do Banco de Dados</h1>
 <img src="https://github.com/Felipaof/Doces-Receitas-/blob/167fc5b0dfa91bc94cbe2186cadd42c09a0f090a/Diagrama%20banco%20de%20dados%20.png" width=1000>
@@ -57,148 +58,71 @@ Pré-Mockup da Interface: <img src="" width=1000>
 
 <h1>📖 Dicionário de dados </h1> 
 
-<h2>Tabela: categorias</h2>  
-<table border="1">  
-<tr>  
-    <th>Nome do Campo</th>  
-    <th>Tipo de Dado</th>  
-    <th>Tamanho</th>  
-    <th>Permite Nulo?</th>  
-    <th>Descrição</th>  
-</tr>  
-<tr>  
-    <td>id_categoria</td>  
-    <td>INT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Identificador único da categoria (chave primária, autoincremento).</td>  
-</tr>  
-<tr>  
-    <td>nome_categoria</td>  
-    <td>VARCHAR</td>  
-    <td>100</td>  
-    <td>NÃO</td>  
-    <td>Nome da categoria (exemplo: "Bolos").</td>  
-</tr>  
-</table>  
-
-<h2>Tabela: receitas</h2>  
-<table border="1">  
-<tr>  
-    <th>Nome do Campo</th>  
-    <th>Tipo de Dado</th>  
-    <th>Tamanho</th>  
-    <th>Permite Nulo?</th>  
-    <th>Descrição</th>  
-</tr>  
-<tr>  
-    <td>id_receita</td>  
-    <td>INT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Identificador único da receita (chave primária, autoincremento).</td>  
-</tr>  
-<tr>  
-    <td>nome_receita</td>  
-    <td>VARCHAR</td>  
-    <td>150</td>  
-    <td>NÃO</td>  
-    <td>Nome da receita (exemplo: "Bolo de cenoura").</td>  
-</tr>  
-<tr>  
-    <td>ingredientes</td>  
-    <td>TEXT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Lista dos ingredientes necessários.</td>  
-</tr>  
-<tr>  
-    <td>modo_preparo</td>  
-    <td>TEXT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Passo a passo para preparar a receita.</td>  
-</tr>  
-<tr>  
-    <td>tempo_preparo</td>  
-    <td>INT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Tempo estimado de preparo (em minutos).</td>  
-</tr>  
-<tr>  
-    <td>rendimento</td>  
-    <td>VARCHAR</td>  
-    <td>50</td>  
-    <td>NÃO</td>  
-    <td>Quantidade de porções que a receita rende.</td>  
-</tr>  
-<tr>  
-    <td>id_categoria</td>  
-    <td>INT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Categoria da receita (chave estrangeira de `categorias`).</td>  
-</tr>  
-<tr>  
-    <td>video_link</td>  
-    <td>VARCHAR</td>  
-    <td>255</td>  
-    <td>SIM</td>  
-    <td>Link de um vídeo tutorial da receita.</td>  
-</tr>  
-</table>  
-
-<h2>Tabela: imagens_receitas</h2>  
-<table border="1">  
-<tr>  
-    <th>Nome do Campo</th>  
-    <th>Tipo de Dado</th>  
-    <th>Tamanho</th>  
-    <th>Permite Nulo?</th>  
-    <th>Descrição</th>  
-</tr>  
-<tr>  
-    <td>id_imagem</td>  
-    <td>INT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Identificador único da imagem (chave primária, autoincremento).</td>  
-</tr>  
-<tr>  
-    <td>id_receita</td>  
-    <td>INT</td>  
-    <td>-</td>  
-    <td>NÃO</td>  
-    <td>Receita relacionada (chave estrangeira de `receitas`).</td>  
-</tr>  
-<tr>  
-    <td>url_imagem</td>  
-    <td>VARCHAR</td>  
-    <td>255</td>  
-    <td>NÃO</td>  
-    <td>URL ou caminho da imagem armazenada.</td>  
-</tr>  
-</table>
-
-<h2>users</h2>
-
+<h2>Entidade Categorias</h2>
+Essa entidade é responsável por armazenar as categorias de receitas disponíveis no sistema, como bolos, tortas e sorvetes.
 <br><br>
 
-- 
+- `idCategorias`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada categoria (**CHAVE PRIMÁRIA**).
+- `Bolos`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Representa a categoria de bolos.
+- `Tortas`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Representa a categoria de tortas.
+- `Sorvetes`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Representa a categoria de sorvetes.
 
-<h2></h2>
-
+<h2>Entidade Bolos</h2>
+Essa entidade é responsável por armazenar diferentes tipos de bolos cadastrados no sistema.
 <br><br>
 
+- `idBolos`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada bolo (**CHAVE PRIMÁRIA**).
+- `Bolo de cenoura`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome do bolo de cenoura.
+- `Bolo de chocolate`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome do bolo de chocolate.
+- `Bolo de banana`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome do bolo de banana.
+- `Receita do bolo_idReceita`: É um atributo do tipo INT. Representa a relação entre a tabela de bolos e a tabela de receitas dos bolos (**CHAVE ESTRANGEIRA**).
 
-
-<h2>Item</h2>
-
+<h2>Entidade Receita dos Bolos</h2>
+Essa entidade é responsável por armazenar as receitas específicas dos bolos cadastrados.
 <br><br>
 
+- `idReceitaBolos`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada receita de bolo (**CHAVE PRIMÁRIA**).
+- `Receita bolo de cenoura`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita do bolo de cenoura.
+- `Receita bolo de chocolate`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita do bolo de chocolate.
+- `Receita bolo de banana`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita do bolo de banana.
 
+<h2>Entidade Tortas</h2>
+Essa entidade é responsável por armazenar diferentes tipos de tortas cadastradas no sistema.
+<br><br>
 
+- `idTortas`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada torta (**CHAVE PRIMÁRIA**).
+- `Torta holandesa`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome da torta holandesa.
+- `Torta de maracujá`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome da torta de maracujá.
+- `Torta de limão`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome da torta de limão.
+- `Receita da torta_idReceita`: É um atributo do tipo INT. Representa a relação entre a tabela de tortas e a tabela de receitas das tortas (**CHAVE ESTRANGEIRA**).
+
+<h2>Entidade Receita das Tortas</h2>
+Essa entidade é responsável por armazenar as receitas específicas das tortas cadastradas.
+<br><br>
+
+- `idReceitaTortas`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada receita de torta (**CHAVE PRIMÁRIA**).
+- `Receita torta holandesa`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita da torta holandesa.
+- `Receita torta de maracujá`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita da torta de maracujá.
+- `Receita torta de limão`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita da torta de limão.
+
+<h2>Entidade Sorvetes</h2>
+Essa entidade é responsável por armazenar diferentes tipos de sorvetes cadastrados no sistema.
+<br><br>
+
+- `idSorvetes`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada sorvete (**CHAVE PRIMÁRIA**).
+- `Sorvete de baunilha`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome do sorvete de baunilha.
+- `Sorvete de chocolate`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome do sorvete de chocolate.
+- `Sorvete de morango`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena o nome do sorvete de morango.
+- `Receitas dos sorvetes_idReceita`: É um atributo do tipo INT. Representa a relação entre a tabela de sorvetes e a tabela de receitas dos sorvetes (**CHAVE ESTRANGEIRA**).
+
+<h2>Entidade Receita dos Sorvetes</h2>
+Essa entidade é responsável por armazenar as receitas específicas dos sorvetes cadastrados.
+<br><br>
+
+- `idReceitaSorvetes`: É um atributo do tipo INT. É o responsável por criar um **Id único** para cada receita de sorvete (**CHAVE PRIMÁRIA**).
+- `Receita sorvete de baunilha`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita do sorvete de baunilha.
+- `Receita sorvete de chocolate`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita do sorvete de chocolate.
+- `Receita sorvete de morango`: É um atributo do tipo VARCHAR com um tamanho de 45 caracteres. Armazena a receita do sorvete de morango.
 
 <h1>🧍Diagramas UML</h1>
 <h2>Tela de principal e funcionamento do aplicativo</h2>
