@@ -2,7 +2,7 @@
 <p align="center">Trabalho para a disciplina de DESENVOLVIMENTO DE APLICAÇÕES PARA DISPOSITIVOS MÓVEIS - 4º Informática do IFSP-Jacareí</p>
 <br>
 <p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=blue&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20DESENVOLVIDO&color=GREEN&style=for-the-badge"/>
 
 <h1>🧑‍🏫 Professor responsável</h1> 
 
@@ -130,19 +130,24 @@ Essa entidade é responsável por armazenar as receitas específicas dos sorvete
 
 <h1>🧰 Tecnologias Utilizadas</h1> 
 
-Front-end e back-end:
+back-end:
+
+<img src="https://img.shields.io/badge/Android Studio-%2300C4CC.svg?style=for-the-badge&logo=Android Studio&logoColor=white">
+
+Front-end:
 <br><br>
-<img src="">
+<img src="https://img.shields.io/badge/React Native-%23323330.svg?style=for-the-badge&logo=ReactNative&logoColor=white">
 
 Banco de Dados:
 <br><br>
-<img src="">
+<img src="https://img.shields.io/badge/supabase-%2300C4B7.svg?style=for-the-badge&logo=supabase&logoColor=white">
+<img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
 
 Diagramas e Mockups:
 <br><br>
-<img src="">
-<img src="">
-<img src="">
+<img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=canva&logoColor=white">
+<img src="https://img.shields.io/badge/Draw.io-%2500C4CC.svg?style=for-the-badge&logo=draw.io&logoColor=blue">
+
 
 
 <h1>🏗️ Arquitetura da Aplicação</h1> 
