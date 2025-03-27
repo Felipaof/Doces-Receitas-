@@ -153,5 +153,5 @@ Diagramas e Mockups:
 <img src="https://github.com/Felipaof/Doces-Receitas-/blob/a9fac3e6852b376c50ccba346576e3b18507317c/ARQUITETURA.png" width=1000> 
 <h1>💻 Desenvolvedores</h1>
 
-| [<img loading="lazy" src="https://github.com/Felipaof/Doces-Receitas-/blob/b6d0a996b1d21aa4940d19c0d11d2da312ec9839/Wybie.jpg" width=115><br><sub>Felipe Martins da Silva Santos</sub>](https://github.com/Felipaof) |  [<img loading="lazy" src="" width=115><br><sub>Nathália Silva Souza</sub>](https://github.com/Na27Thalia) |
+| [<img loading="lazy" src="https://github.com/Felipaof/Doces-Receitas-/blob/b6d0a996b1d21aa4940d19c0d11d2da312ec9839/Wybie.jpg" width=115><br><sub>Felipe Martins da Silva Santos</sub>](https://github.com/Felipaof) |  [<img loading="lazy" src="https://github.com/Felipaof/Doces-Receitas-/blob/b327b05fa10e8787496b23a9dbc8fc1c27ceb068/coraline.png" width=115><br><sub>Nathália Silva Souza</sub>](https://github.com/Na27Thalia) |
 | :---: | :---: |
