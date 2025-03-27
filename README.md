@@ -150,7 +150,7 @@ Diagramas e Mockups:
 
 
 <h1>🏗️ Arquitetura da Aplicação</h1> 
-
+<img src="https://github.com/Felipaof/Doces-Receitas-/blob/a9fac3e6852b376c50ccba346576e3b18507317c/ARQUITETURA.png" width=1000> 
 <h1>💻 Desenvolvedores</h1>
 
 | [<img src=">]() <br> ** | [<img src = >]() <br> ** |
