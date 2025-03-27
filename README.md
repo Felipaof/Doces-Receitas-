@@ -149,7 +149,6 @@ Diagramas e Mockups:
 <img src="https://img.shields.io/badge/Draw.io-%2500C4CC.svg?style=for-the-badge&logo=draw.io&logoColor=blue">
 
 
-
 <h1>🏗️ Arquitetura da Aplicação</h1> 
 
 <h1>💻 Desenvolvedores</h1>
