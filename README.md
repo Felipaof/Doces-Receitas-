@@ -19,7 +19,11 @@ Por se tartar de um trabalho em pequena escala, somente com fim de conhecimentos
 - Salvamento de receitas favoritas.
 - Se caso realizado a receita, não terá responsabilidade sobre o doce realizado pelo usuário. 
 
-<h1>👥 Público-alvo</h2>
+<h1>👥 Público-alvo</h1>
+
+-Pessoas que gostam de cozinhar em casa receitas de doces.
+
+-Pessoas com deficiência visual.
 
 <h1>:hammer: Requisitos funcionais do projeto</h1>
 
